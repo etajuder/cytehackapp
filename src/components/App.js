@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Header from './Header';
 
 
 /**
  * App - Wrapper Component
  */
 const App = (props) => (
-  <div className="container-fluid">
+  <div className="row">
+    <Header />
     {props.children}
   </div>
   );
