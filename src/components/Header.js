@@ -12,12 +12,12 @@ class Header extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props);
+    console.log('the headrer props:',this.props);
   }
 
 
   componentWillReceiveProps(nextProps) {
-    console.log(nextProps);
+    console.log('the headere next props:',nextProps);
   }
 
 
@@ -37,7 +37,7 @@ class Header extends Component {
               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <ul className="top-social-media pull-right">
                   <li>
-                    <a href="login.html" className="sign-in"><i className="fa fa-sign-in"></i> Login</a>
+                    <a href="/login" className="sign-in"><i className="fa fa-sign-in"></i> Login</a>
                   </li>
                   <li>
                     <a href="signup.html" className="sign-in"><i className="fa fa-user"></i> Register</a>

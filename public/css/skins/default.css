@@ -528,3 +528,27 @@ table.manage-table td.action a:hover{
         background: #eee;
     }
 }
+.border-button-theme {
+    border: 2px solid #95c41f;
+    color: #95c41f;
+}
+
+.border-button-theme:hover {
+    background: #95c41f;
+    color: #fff !important;
+}
+.options{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    width: 90vw;
+}
+.menu-item{
+    width: 40vw;
+    margin-left: 17vw;
+    border-right: 2px solid #95c41f;
+}
+.menu-item2{
+    width: 40vw;
+    margin-right: 17vw;
+}
