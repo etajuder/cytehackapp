@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MenuOptions from './MenuOptions';
+import Footer from './Footer';
 
 class LandingPage extends Component {
   constructor(props) {
@@ -46,6 +47,7 @@ class LandingPage extends Component {
           </div>
         </div>
       <MenuOptions />
+      <Footer />
       </div>
     );
   }
